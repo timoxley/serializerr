@@ -1,0 +1,41 @@
+{
+  "name": "serializerr",
+  "version": "1.0.0",
+  "description": "Convert Errors & Objects into an easily-serialized vanilla Object.",
+  "main": "serializerr.js",
+  "scripts": {
+    "test": "(babel test.js > serializerr-test.js) && tape serializerr-test.js",
+    "prepublish": "babel index.js > serializerr.js",
+    "pretest": "npm run prepublish",
+    "posttest": "rm serializerr-test.js"
+  },
+  "keywords": [
+    "object",
+    "error",
+    "utility",
+    "JSON",
+    "serialise",
+    "errors",
+    "non-enumerable",
+    "enumberable",
+    "stringify",
+    "properties"
+  ],
+  "author": "Tim Oxley <secoif@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^4.6.6",
+    "tape": "^3.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timoxley/serializerr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/timoxley/serializerr/issues"
+  },
+  "homepage": "https://github.com/timoxley/serializerr",
+  "dependencies": {
+    "protochain": "^1.0.1"
+  }
+}
