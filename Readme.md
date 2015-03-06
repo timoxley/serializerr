@@ -79,6 +79,21 @@ console.log(wellSerializedError.stack) // Error: an error occurred\n  at Test.<a
 errorObject instanceof Error // false
 ```
 
+## Notes on 'ize' vs 'ise'
+
+Name was selected as programming world is mostly Americanised, and npm
+search does not seem to do effective stemming.
+
+This decision came with strong feelings of guilt and shame about what I thought
+was blasphemous Americanized spelling, but it turns out this is a
+misconception thus I am pardoned:
+
+> The -ize spelling is often incorrectly seen as an Americanism in
+> Britain. However, the Oxford English Dictionary (OED) recommends -ize
+> and notes that the -ise spelling is from French.
+
+From [Wikipedia: American and British English spelling differences](http://en.wikipedia.org/wiki/American_and_British_English_spelling_differences#-ise.2C_-ize_.28-isation.2C_-ization.29)
+
 ## License
 
 MIT
