@@ -3,7 +3,6 @@
 import protochain from 'protochain'
 
 export default serializerr
-export {serializerr}
 
 function serializerr(obj = {}) {
   let chain = protochain(obj)
@@ -16,3 +15,5 @@ function serializerr(obj = {}) {
     return result
   }, {})
 }
+
+serializerr.serializerr = serializerr

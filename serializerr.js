@@ -4,8 +4,7 @@ var _interopRequire = function (obj) { return obj && obj.__esModule ? obj["defau
 
 var protochain = _interopRequire(require("protochain"));
 
-exports["default"] = serializerr;
-exports.serializerr = serializerr;
+module.exports = serializerr;
 
 function serializerr() {
   var obj = arguments[0] === undefined ? {} : arguments[0];
@@ -22,7 +21,6 @@ function serializerr() {
     return result;
   }, {});
 }
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
+
+serializerr.serializerr = serializerr;
 
