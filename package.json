@@ -24,8 +24,8 @@
   "author": "Tim Oxley <secoif@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "babel": "^4.6.6",
-    "tape": "^3.5.0"
+    "babel": "^5.8.23",
+    "tape": "^4.2.1"
   },
   "repository": {
     "type": "git",
@@ -36,6 +36,6 @@
   },
   "homepage": "https://github.com/timoxley/serializerr",
   "dependencies": {
-    "protochain": "^1.0.1"
+    "protochain": "^1.0.3"
   }
 }
