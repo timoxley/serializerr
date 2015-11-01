@@ -24,7 +24,7 @@
   "author": "Tim Oxley <secoif@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "babel": "^5.8.23",
+    "babel": "^6.0.15",
     "tape": "^4.2.1"
   },
   "repository": {
