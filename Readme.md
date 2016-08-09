@@ -2,6 +2,8 @@
 
 Convert Errors & Objects into an easily-serialized vanilla Object.
 
+[![Build Status](https://travis-ci.org/timoxley/serializerr.png?branch=master)](https://travis-ci.org/timoxley/serializerr)
+
 Resulting object has a flattened prototype chain & includes
 non-enumerable properties. Ignores properties on `Object.prototype`.
 
