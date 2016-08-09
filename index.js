@@ -1,13 +1,15 @@
 import protochain from 'protochain'
 
-function serializerr(obj = {}) {
+function serializerr (obj = {}) {
   let chain = protochain(obj)
   .filter(obj => obj !== Object.prototype)
   return [obj]
   .concat(chain)
   .map(item => Object.getOwnPropertyNames(item))
   .reduce((result, names) => {
-    names.forEach(name => result[name] = obj[name])
+    names.forEach(name => {
+      result[name] = obj[name]
+    })
     return result
   }, {})
 }

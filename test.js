@@ -1,4 +1,4 @@
-"use strict"
+'use strict'
 
 import test from 'tape'
 import serializerr from './'
@@ -53,6 +53,6 @@ test('example', t => {
   t.end()
 })
 
-function JSONify(item) {
+function JSONify (item) {
   return JSON.parse(JSON.stringify(item))
 }
