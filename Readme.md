@@ -4,8 +4,11 @@ Convert Errors & Objects into an easily-serialized vanilla Object.
 
 [![Build Status](https://travis-ci.org/timoxley/serializerr.png?branch=master)](https://travis-ci.org/timoxley/serializerr)
 
-Resulting object has a flattened prototype chain & includes
-non-enumerable properties. Ignores properties on `Object.prototype`.
+`serializerr` creates a vanilla `Object` with a flattened prototype
+chain & any non-enumerable properties mapped to enumerable properties.
+
+This allows `Error` objects to be serialised to JSON without losing
+important data.
 
 ## Installation
 
@@ -14,10 +17,6 @@ npm install serializerr
 ```
 
 ## Usage
-
-`serializerr` creates a vanilla Object with the prototype chain
-flattened & any non-enumberable properties as regular enumerable properties.
-This allows it to be serialised to JSON without losing important data.
 
 ```js
 
