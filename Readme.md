@@ -4,6 +4,8 @@ Convert Errors & Objects into an easily-serialized vanilla Object.
 
 [![Build Status](https://travis-ci.org/timoxley/serializerr.png?branch=master)](https://travis-ci.org/timoxley/serializerr)
 
+[![NPM](https://nodei.co/npm-dl/serializerr.png?months=3&height=3&chrome)](https://nodei.co/npm/serializerr/)
+
 `serializerr` creates a vanilla `Object` with a flattened prototype
 chain & any non-enumerable properties mapped to enumerable properties.
 
