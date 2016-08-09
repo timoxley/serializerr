@@ -98,4 +98,4 @@ From [Wikipedia: American and British English spelling differences](http://en.wi
 
 ## License
 
-MIT
+ISC
