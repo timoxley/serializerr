@@ -1,7 +1,7 @@
 import protochain from 'protochain'
 
 function serializerr (obj = {}) {
-  let chain = protochain(obj)
+  const chain = protochain(obj)
   .filter(obj => obj !== Object.prototype)
   return [obj]
   .concat(chain)
